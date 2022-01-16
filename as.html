@@ -58,17 +58,16 @@
         <!-- aside gauche avec nav sommaire -->
         <div class="col-12 p-4">
 
-            <h1 class="text-uppercase fw-bold display-1">select where</h1>
-            <ol>
-                <li>Si on souhaite avoir que des lignes spécifiques de notre table.>
+            <h1 class="text-uppercase fw-bold display-1">AS (alias)</h1>
+            <ul>
+                <li><span class="fw-bold display-1">AS</span>est utilisées pour renommer temporairement une colonne ou une table dans une requête.>
                 </li>
-                <li>
-                    <span class="fw-bold display-1">WHERE</span> permet de de spécifier les lignes a retourner.
+                <li>Cette astuce est utile pour faciliter la lecture des requête.
                 </li>
-            </ol>
+            </ul>
             <div class="container my-5 text-center display-3">
                 <h2 class="display-1 fw-bolder">SYNTAXE :</h2>
-                <p><span class="fw-bold display-1">SELECT</span> colonne1, colonne2, ... <span class="fw-bold display-1">FROM</span> table <span class="fw-bold display-1">WHERE</span> condition</p>
+                <p><span class="fw-bold display-1">SELECT</span> prenom <span class="fw-bold display-1">AS</span>prenom_client, nom <span class="fw-bold display-1">AS</span>nom_client<span class="fw-bold display-1">FROM</span>clients</p>
             </div>
 
         </div>
